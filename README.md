@@ -32,7 +32,7 @@ onde você iria simplesmente escrever a expressão que deseja calcular via termi
 
 ## Durante a execução:
 
-  Caso tenha fornecido o arquivo ele ira indicar o caminho da pasta com as respostas 
+  Caso tenha fornecido o arquivo ele ira indicar o caminho da pasta com as respostas. 
 E caso não tenha fornecido ele ira pedir uma expressão.
 
 ## O que eu não fiz?
