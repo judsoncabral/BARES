@@ -1,0 +1,34 @@
+Expressão: 20+10                  Resultado:  30          
+Expressão: 20+3-10                Resultado:  13          
+Expressão: 20+3*10-50             Resultado:  0           
+Expressão: (3+4)*(10-5)           Resultado:  35          
+Expressão: 30^2*3-50+32/2         Resultado:  2666        
+Expressão: 25 / 5 + 4 *8          Resultado:  37          
+Expressão: (2+3) * 8              Resultado:  40          
+Expressão: 5 % 2 ^4               Resultado:  5           
+Expressão: (5 % 3) ^4             Resultado:  16          
+Expressão: 2^3*5-4+3/7/(2+1)      Resultado:  36          
+Expressão: ((2+1)*3-(4-1))^(1+2)  Resultado:  216         
+Expressão: (2-1)/(2*3^2)          Resultado:  0           
+Expressão: 3^(5+3)                Resultado:  6561        
+Expressão: 3^(5-3)                Resultado:  9           
+Expressão: 3000-3^(5+3)           Resultado:  -3561       
+Expressão: 10000000 - 2           Erro:  Integer constant out of range beginning at column(0)!
+Expressão: ---3                   Erro:  Ill formed integer at column(0)!
+Expressão: 2+                     Erro:  Missing <term> at column(2)!
+Expressão: 3 * d                  Erro:  Extraneous symbol after valid expression found at column(4)!
+Expressão: 2 = 3                  Erro:  Extraneous symbol after valid expression found at column(2)!
+Expressão: 2.3 + 4                Erro:  Extraneous symbol after valid expression found at column(1)!
+Expressão: 2 * 3 4                Erro:  Extraneous symbol after valid expression found at column(5)!
+Expressão: %5 * 10                Erro:  Ill formed integer at column(0)!
+Expressão: *5 * 10                Erro:  Ill formed integer at column(0)!
+Expressão: 2 - 4)                 Erro:  Extraneous symbol after valid expression found at column(5)!
+Expressão: 2) - 4                 Erro:  Extraneous symbol after valid expression found at column(1)!
+Expressão: )2 - 4                 Erro:  Ill formed integer at column(0)!
+Expressão: ((2%3) * 8             Erro:  Missing closing ')' at column(10)!
+Expressão: 20*20000               Erro:  Numeric overflow error!
+Expressão: 2 ** 3                 Erro:  Extraneous symbol after valid expression found at column(2)!
+Expressão: (2+3)*/(1-4)           Erro:  Extraneous symbol after valid expression found at column(5)!
+Expressão: (-3*4)(10*5)           Erro:  Extraneous symbol after valid expression found at column(5)!
+Expressão: 10/(3*3^-2)            Erro:  Extraneous symbol after valid expression found at column(6)!
+Expressão: 3/(1-1)                Erro:  Division by zero
